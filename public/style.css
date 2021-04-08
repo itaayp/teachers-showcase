@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cardContainer{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.card img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card h3, .card p {
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    margin-left: 40px;
+    border-left: 2px solid black;    
+}
+
+.card h3 {
+    font-weight: 400;
+    padding: 10 10 10;
+    font-size: 10px;
+}
+
+.card p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 5px;
+}
+
+.form input, .form textarea {
+    padding: 10px;
+    
+}
